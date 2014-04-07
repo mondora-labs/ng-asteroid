@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="astdemo">
+	<head>
+		<meta charset="UTF-8">
+		<title>Asteroid demo</title>
+		<script src="bower_components/underscore/underscore.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="ddp.js"></script>
+		<script src="db.js"></script>
+		<script src="collection.js"></script>
+		<script src="asteroid.js"></script>
+		<script src="ng-asteroid.js"></script>
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<div ng-controller="MainController">
+			<ul>
+				<li ng-repeat="item in items">{{item.name}}</li>
+			</ul>
+		</div>
+	</body>
+</html>
