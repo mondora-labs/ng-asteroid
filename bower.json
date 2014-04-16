@@ -1,0 +1,26 @@
+{
+  "name": "ng-asteroid",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mondora/ng-asteroid",
+  "authors": [
+    "Paolo Scanferla <paolo.scanferla@mondora.com>"
+  ],
+  "description": "Angular adapter for asteroid.",
+  "keywords": [
+    "asteroid",
+    "angular",
+    "meteor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16",
+    "asteroid": "~0.1.0"
+  }
+}
